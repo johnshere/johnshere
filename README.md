@@ -1,19 +1,15 @@
-## 你好，我是 johnshere
+## 伸出手，与风击个掌。
 
-写前端工程，也在把 Agent 的记忆与工具链做成能真正跑起来的东西；业余用 Godot 做独立游戏。
+- **moshi 默识** —— 本机 Agent 记忆系统：被动观测本地开发痕迹，抽成事实与关系边，按需检索注入 Agent 上下文；记忆侧不跑 LLM，只做要点出境。（TypeScript / Python / MCP / CC Hook）
+- **pixel-wallpaper** —— DSH像素格背景生成器：6 种生成算法统一只输出亮度场，渲染层独立处理调色板、gamma 与抖动。（JavaScript）
 
-**在做**
-
-- **moshi 默识** —— 本机 Agent 记忆系统：被动观测本地开发痕迹，抽成事实与关系边，按需检索注入 Agent 上下文；记忆侧不跑 LLM，只做要点出境。（TypeScript / Python / MCP）
-- **pixel-wallpaper** —— 像素格背景生成器：6 种生成算法统一只输出亮度场，渲染层独立处理调色板、gamma 与抖动。（JavaScript）
-- **jianmu** —— Godot 4 低模国风 3D 生存游戏，附带 AI 建模 → 引擎落地的全流程文档。（GDScript）
 
 ## 可以点开的几个仓库
 
-| 仓库 | 一句话 | 栈 |
+| 仓库 | 描述 | 栈 |
 | --- | --- | --- |
 | [moshi](https://github.com/johnshere/moshi) | 本机 Agent 记忆系统：事实与关系边，按需检索注入 | TypeScript · Python |
-| [pixel-wallpaper](https://github.com/johnshere/pixel-wallpaper) | 6 种算法 → 亮度场 → 统一渲染管线 | JavaScript |
+| [pixel-wallpaper](https://github.com/johnshere/pixel-wallpaper) | DSH  plugin；6 种算法 → 亮度场 → 统一渲染管线 | JavaScript |
 | [universal-vue-components](https://github.com/johnshere/universal-vue-components) | Vue2/Vue3 双版本组件库，分发原始 SFC 由宿主编译 | TypeScript · Vue |
 | [namespace-style-link](https://github.com/johnshere/namespace-style-link) | VS Code 扩展：template 的 BEM 调用 ↔ style 的 `@include` | TypeScript |
 | [print-page](https://github.com/johnshere/print-page) | Vue3 独立分页打印 / PDF / Excel 导出 | Vue 3 |
