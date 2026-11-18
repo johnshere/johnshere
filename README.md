@@ -1,6 +1,6 @@
 ## 伸出手，与风击个掌。
 
-- **moshi 默识** —— 本机 Agent 记忆系统：被动观测本地开发痕迹，抽成事实与关系边，按需检索注入 Agent 上下文；记忆侧不跑 LLM，只做要点出境。（TypeScript / Python / MCP / CC Hook）
+- **moshi 默识** —— 本机 Agent 记忆系统：被动观测开发痕迹，抽成事实与边，经 MCP 按需检索给 Agent 用；自带 React 记忆图谱界面（three / sigma）。记忆侧不跑 LLM，只做要点出境。（TypeScript / Python / React / MCP）
 - **pixel-wallpaper** —— DSH像素格背景生成器：6 种生成算法统一只输出亮度场，渲染层独立处理调色板、gamma 与抖动。（JavaScript）
 
 
@@ -8,7 +8,7 @@
 
 | 仓库 | 描述 | 栈 |
 | --- | --- | --- |
-| [moshi](https://github.com/johnshere/moshi) | 本机 Agent 记忆系统：事实与关系边，按需检索注入 | TypeScript · Python |
+| [moshi](https://github.com/johnshere/moshi) | 本机 Agent 记忆系统：事实与边，经 MCP 按需检索；含 React 图谱界面 | TypeScript · Python · React |
 | [cell-world](https://github.com/johnshere/cell-world) | 细胞世界生态模拟：Go → Python → Node → Rust 四代重写，现版 Rust + egui，含脉冲神经网络、基因与生命史追踪 | Rust · Go · Python |
 | [pixel-wallpaper](https://github.com/johnshere/pixel-wallpaper) | DSH  plugin；6 种算法 → 亮度场 → 统一渲染管线 | JavaScript |
 | [universal-vue-components](https://github.com/johnshere/universal-vue-components) | Vue2/Vue3 双版本组件库，分发原始 SFC 由宿主编译 | TypeScript · Vue |
