@@ -1,6 +1,6 @@
 ## 伸出手，与风击个掌。
 
-- **moshi 默识** —— 本机 Agent 记忆系统：被动观测开发痕迹，抽成事实与边，经 MCP 按需检索给 Agent 用；自带 React 记忆图谱界面（three / sigma）。记忆侧不跑 LLM，只做要点出境。（TypeScript / Python / React / MCP）
+- **moshi 默识** —— 本机 Agent 记忆系统：被动观测开发痕迹，抽成事实与边，经 MCP 按需检索给 Agent 用；自带 React 记忆图谱界面（three / sigma）。记忆侧不跑 LLM，只做要点出境。（TypeScript / Python / React / MCP / CC Hook）
 - **pixel-wallpaper** —— DSH像素格背景生成器：6 种生成算法统一只输出亮度场，渲染层独立处理调色板、gamma 与抖动。（JavaScript）
 
 
