@@ -1,16 +1,28 @@
-## Hi there 👋
+## 你好，我是 johnshere
 
-<!--
-**johnshere/johnshere** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+写前端工程，也在把 Agent 的记忆与工具链做成能真正跑起来的东西；业余用 Godot 做独立游戏。
 
-Here are some ideas to get you started:
+**在做**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **moshi 默识** —— 本机 Agent 记忆系统：被动观测本地开发痕迹，抽成事实与关系边，按需检索注入 Agent 上下文；记忆侧不跑 LLM，只做要点出境。（TypeScript / Python / MCP）
+- **pixel-wallpaper** —— 像素格背景生成器：6 种生成算法统一只输出亮度场，渲染层独立处理调色板、gamma 与抖动。（JavaScript）
+- **jianmu** —— Godot 4 低模国风 3D 生存游戏，附带 AI 建模 → 引擎落地的全流程文档。（GDScript）
+
+## 可以点开的几个仓库
+
+| 仓库 | 一句话 | 栈 |
+| --- | --- | --- |
+| [moshi](https://github.com/johnshere/moshi) | 本机 Agent 记忆系统：事实与关系边，按需检索注入 | TypeScript · Python |
+| [pixel-wallpaper](https://github.com/johnshere/pixel-wallpaper) | 6 种算法 → 亮度场 → 统一渲染管线 | JavaScript |
+| [universal-vue-components](https://github.com/johnshere/universal-vue-components) | Vue2/Vue3 双版本组件库，分发原始 SFC 由宿主编译 | TypeScript · Vue |
+| [namespace-style-link](https://github.com/johnshere/namespace-style-link) | VS Code 扩展：template 的 BEM 调用 ↔ style 的 `@include` | TypeScript |
+| [print-page](https://github.com/johnshere/print-page) | Vue3 独立分页打印 / PDF / Excel 导出 | Vue 3 |
+| [dsh-title-wheel](https://github.com/johnshere/dsh-title-wheel) | 会话列表改造：双行标题 + 时间轮盘编号 + 模型生成标题 | JavaScript |
+
+## 技术栈
+
+`TypeScript` `Vue 2/3` `Node` `Python` `Go` `GDScript` `Vite` `pnpm`
+
+---
+
+写东西的习惯：先定边界，再写实现——概设回答「做成什么样、怎么验收」，详设回答「怎么写」，有争议的决策走 ADR。
